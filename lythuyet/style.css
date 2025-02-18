@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: white;
+    font-size: large;
+}
+.service-container .container:nth-of-type(1) .col{
+    background-color: white;
+}
+.service-container .container:nth-of-type(1) .col .post-container{
+    height: 400px;
+}
+.service-container .row{
+    display: flex;
+    background-color: white;
+    gap: 10px;
+}
+.service-container .row .col{
+    width: 33%;
+}
+.service-container .container {
+    margin-bottom: 20px;
+}
+.post-container{
+    margin: 20px;
+    background-repeat: no-repeat;
+    background-image:url(https://kenh14cdn.com/203336854389633024/2022/6/24/photo-1-16560369018051983420011.jpg);
+    height: 250px;
+    background-size:cover;
+    background-position:center center;
+    position: relative;
+}
+.post-container .title{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
